@@ -87,19 +87,19 @@ WSGI_APPLICATION = 'hotel_main.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
-DATABASES = {
+DATABASESx = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-DATABASESx = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dfpbi6etuppp4n',
-        'USER': 'zdsfnxsnixpepm',
-        'PASSWORD': '240158d9c5b8a0401e9c426c7c9b75c18797e1281e9437d3f8d13a4264b144b2',
-        'HOST': 'ec2-50-17-203-195.compute-1.amazonaws.com',
+        'NAME': 'dnm7qls1ttsi5',
+        'USER': 'wfwarshzcyndkw',
+        'PASSWORD': '3c37f9f5c04306d6b582e060b2ca560efdf85429d814580ceb802b10fc3828f6',
+        'HOST': 'ec2-50-17-235-5.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
